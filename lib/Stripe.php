@@ -201,6 +201,7 @@ class Stripe
      * @param string $appName The application's name
      * @param string $appVersion The application's version
      * @param string $appUrl The application's URL
+     * @param string $appPartnerId The application's partner ID.
      */
     public static function setAppInfo($appName, $appVersion = null, $appUrl = null, $appPartnerId = null)
     {
